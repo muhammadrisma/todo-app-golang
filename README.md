@@ -1,6 +1,6 @@
 Prerequisites:
 1. Golang
-2. Docker installed on your system
+2. Basic knowledge Docker,and Docker installed on your system
 3. Xampp or others
 
 
@@ -18,9 +18,8 @@ The specifications for our API Server are:
 
 How to lauch this project on you localhost
 1. Move all of this file to your "htdocs/" at xampp folder (Im Using xampp)
-2. Open your Xampp Control Panel, because we use port 8000 to connect to API from our frond end, change Apache Config(httpd.conf) to
-Listen 8000, ServerName localhost:8000, end save it
-3. To run the file, please run the todolist.exe and open localhost:8000/todolist-mysql-go/todo/index.html
+2. Open your Xampp Control Panel, and run Apache
+3. To run the file, please run the todolist.exe and open localhost:80/todolist-mysql-go/todo/index.html. (because my http port at xampp is 80)
 
 Note:
 1. Remember to run our docker container that we use
