@@ -1,6 +1,7 @@
 Prerequisites:
 1. Golang
 2. Docker installed on your system
+3. Xampp or others
 
 
 What we’ll build:
@@ -24,3 +25,6 @@ Listen 8000, ServerName localhost:8000, end save it
 Note:
 1. Remember to run our docker container that we use
 2. Run todolist.exe
+
+
+All this code, from https://betterprogramming.pub/build-a-simple-todolist-app-in-golang-82297ec25c7d, I did this project to practice how to use golang using this tutorial
